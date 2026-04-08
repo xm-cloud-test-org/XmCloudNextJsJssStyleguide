@@ -4,7 +4,9 @@
             "path": "./src/rendering",
             "nodeVersion": "22.22.0",
             "jssDeploymentSecret":"110F1C44A496B45478640DD36F80C18C9",
-            "enabled": true
+            "enabled": true,
+            "buildCommand": "build",
+            "runCommand": "next: start"
         }
     },
     "postActions": {
